@@ -8,7 +8,7 @@ imtool close all
 folder = fileparts(which('classroom.mp4'));
 movieFullFileName = fullfile(folder, 'classroom.mp4');
 
-path = '..\ExtractMovieFrames';
+path = '..\';
 o_f = 'Output';
 out_folder = fullfile(path,o_f)
 
